@@ -1,1 +1,1 @@
-# kwniyaz.github.io
+# kwniyaz.com
