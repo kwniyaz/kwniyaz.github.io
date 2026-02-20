@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Niyaz Hacker</title>
 
   <style>
     body {
-      background-color: #0f172a;
-      color: white;
-      font-family: Arial;
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
       text-align: center;
-      padding: 50px;
+      margin-top: 100px;
+    }
+
+    h1 {
+      font-size: 40px;
+      text-shadow: 0 0 10px #00ff00;
     }
 
     button {
-      background-color: #22c55e;
-      color: white;
+      background: black;
+      color: #00ff00;
+      border: 1px solid #00ff00;
       padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
+      font-family: monospace;
       font-size: 18px;
     }
 
     button:hover {
-      background-color: #16a34a;
+      background: #00ff00;
+      color: black;
+    }
+
+    .blink {
+      animation: blink 1s infinite;
+    }
+
+   _attachment@keyframes blink {
+      50% { opacity: 0; }
     }
   </style>
 
 </head>
 <body>
 
-<h1>Welcome to my website</h1>
+<h1>ACCESS GRANTED</h1>
 
-<p>I am Nahiduzzaman Niyaz. This is my professional website.</p>
+<p>> Welcome to Niyaz system</p>
+<p>> Status: Online</p>
+<p>> User: Root</p>
 
-<button onclick="showMessage()">Click me</button>
+<button onclick="hack()">Initialize Hack</button>
+
+<p id="result" class="blink"></p>
 
 <script>
-function showMessage() {
-  alert("Welcome to my website!");
+function hack() {
+  document.getElementById("result").innerHTML = ">>> Accessing mainframe...";
 }
 </script>
+  
+  <p>> Encrypting data...</p>
+<p>> Bypassing firewall...</p>
+<p>> Access granted</p>
+  
 
 </body>
 </html>
